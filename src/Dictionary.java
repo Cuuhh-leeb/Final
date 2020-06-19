@@ -27,6 +27,10 @@ public class Dictionary {
             array[i] = input.next();
         }
         System.out.println("Original order");
+        for (i = 0; i < num; i++) {
+            System.out.println(array[i]);
+        }
+
 
 
         for (i = 0; i < (num - 1); i++) {
@@ -36,8 +40,7 @@ public class Dictionary {
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
                 }
-                for (i = 0; i < num; i++)
-                    System.out.println(array[i]);
+                //
 
                 for (i = 0; i < num; i++)
                     //3array[i] = input.nextLine();
